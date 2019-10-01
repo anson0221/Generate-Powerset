@@ -1,7 +1,7 @@
 # Generate-Powerset
 The power set of S is the set of all possible subsets of S.
 
-•input:
+--input--
 
 wq s
 
@@ -13,18 +13,22 @@ nnn hy i o wedsx
 
 a b c d e f g
 
-•output:
+--output--
 
 {} {s} {wq } {wq s}
 
+
 {} {c} {b } {b c} {a } {a c} {a b } {a b c}
+
 
 {} {tq} {e } {e tq} {y } {y tq} {y e } {y e tq} {cbg } {cbg tq} {cbg e } {cbg e tq} {cbg y } {cbg y tq} {cbg y e } 
 {cbg y e tq}
 
+
 {} {wedsx} {o } {o wedsx} {i } {i wedsx} {i o } {i o wedsx} {hy } {hy wedsx} {hy o } {hy o wedsx} {hy i } {hy i wedsx} 
 {hy i o } {hy i o wedsx} {nnn } {nnn wedsx} {nnn o } {nnn o wedsx} {nnn i } {nnn i wedsx} {nnn i o } {nnn i o wedsx} 
 {nnn hy } {nnn hy wedsx} {nnn hy o } {nnn hy o wedsx} {nnn hy i } {nnn hy i wedsx} {nnn hy i o } {nnn hy i o wedsx}
+
 
 {} {g} {f } {f g} {e } {e g} {e f } {e f g} {d } {d g} {d f } {d f g} {d e } {d e g} {d e f } {d e f g} {c } {c g} {c f } 
 {c f g} {c e } {c e g} {c e f } {c e f g} {c d } {c d g} {c d f } {c d f g} {c d e } {c d e g} {c d e f } {c d e f g} {b } 
