@@ -1,5 +1,6 @@
 # Generate-Powerset
 • The power set of S is the set of all possible subsets of S.
+
 • The amount of elements in S is less than or equal to 10.
 
 --input--
